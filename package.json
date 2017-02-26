@@ -1,0 +1,27 @@
+{
+  "name": "react-static-html",
+  "version": "1.0.0",
+  "description": "Static html loader for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "whatwg-fetch": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuertilindo/react-static-html.git"
+  },
+  "keywords": [
+    "react",
+    "html"
+  ],
+  "author": "tuertilindo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuertilindo/react-static-html/issues"
+  },
+  "homepage": "https://github.com/tuertilindo/react-static-html#readme"
+}
