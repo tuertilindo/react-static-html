@@ -4,7 +4,9 @@ export default class Htmlloader extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
-      ...props// 'src' relative path. example: src:'help.html'
+      src: props.src, // 'src' relative path. example: src:'help.html'
+      className: props.className,
+      html: null
     }
   }
   render () {
