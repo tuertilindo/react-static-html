@@ -2,7 +2,7 @@
   "name": "react-static-html",
   "version": "1.0.0",
   "description": "Static html loader for react",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
