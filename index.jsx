@@ -23,7 +23,7 @@ export default class Htmlloader extends React.Component {
   }
   componentDidMount () {
     if (this.props.src) {
-      fetch(this.props.src)
+      fetch(this.props.src, {mode: 'cors'})
       .then((response) => {
         return response.text()
       }).then((data) => {
